@@ -18,7 +18,7 @@ function Provider ({ children }) {
 
   
   const context = {
-    ...cars,
+    cars,
     moveCar,
   };
 
